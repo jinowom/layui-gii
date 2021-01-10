@@ -27,7 +27,7 @@ use yii\web\Controller;
  * @property bool|\yii\db\TableSchema $tableSchema This property is read-only.
  * @property string $viewPath The controller view path. This property is read-only.
  *
- * @author Qiang Xue <qiang.xue@gmail.com>
+ * @author charles lee <chareler@163.com>
  * @since 2.0
  */
 class Generator extends \yii\gii\Generator

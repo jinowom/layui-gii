@@ -20,7 +20,7 @@ use yii\helpers\Inflector;
 /**
  * This generator will generate one or multiple ActiveRecord classes for the specified database table.
  *
- * @author Qiang Xue <qiang.xue@gmail.com>
+ * @author charles lee <chareler@163.com>
  * @since 2.0
  */
 class Generator extends \yii\gii\Generator
