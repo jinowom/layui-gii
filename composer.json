@@ -1,0 +1,17 @@
+{
+    "name": "jsyqw/layui-gii",
+    "description": "基于Yii2框架，通过gii生成layui布局,生成统一的API格式",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Jason Wang",
+            "email": "1045643440@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jsyqw\\Layuigii\\": "src/"
+        }
+    }
+}
