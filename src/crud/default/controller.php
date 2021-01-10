@@ -31,7 +31,14 @@ namespace <?= StringHelper::dirname(ltrim($generator->controllerClass, '\\')) ?>
 
 use Yii;
 use <?= ltrim($generator->modelClass, '\\') ?>;
+<?php if (!empty($generator->searchModelClass)): ?>
+use <?= ltrim($generator->searchModelClass, '\\') . (isset($searchModelAlias) ? " as $searchModelAlias" : "") ?>;
+<?php else: ?>
+use yii\db\Query;
+use yii\data\ActiveDataProvider;
+<?php endif; ?>
 use <?= ltrim($generator->baseControllerClass, '\\') ?>;
+//use app\...\helpers\RequestHelper;//根据情况引用RequestHelper助手类，并需要自行封装
 
 /**
  * <?= $controllerClass ?> implements the CRUD actions for <?= $modelClass ?> model.
