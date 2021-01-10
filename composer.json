@@ -2,6 +2,7 @@
     "name": "jinowom/layui-gii",
     "description": "基于Yii2框架，通过gii生成layui布局,包括Crud脚手架（Generator）、model脚手架、生成统一的API格式的脚手架。",
     "type": "yii2-extension",
+    "license": "MIT",
     "authors": [
         {
             "name": "charles lee",
